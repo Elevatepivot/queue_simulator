@@ -1,0 +1,83 @@
+{
+    "simulation_metadata": {
+        "description": "Shutdown simulation and feasibility check",
+        "baseline_scenario": "1"
+    },
+    "scenarios": {
+        "shutdown_source_10": {
+            "override_type": "Force_Shutdown",
+            "target_node": "source_10",
+            "original_flow": 990.86546575,
+            "forced_flow": 0.0,
+            "system_supply_post_override": 1287.4582147499796,
+            "system_demand_fixed": 2278.3236804994576,
+            "supply_gap": 990.8654657494781,
+            "feasibility_status": "Supply Gap / Infeasible",
+            "financial_impact_estimate": 4082.36571889,
+            "details": {
+                "unit_cost": 4.12,
+                "sales_price": 0.0
+            }
+        },
+        "shutdown_source_11": {
+            "override_type": "Force_Shutdown",
+            "target_node": "source_11",
+            "original_flow": 726.082153844,
+            "forced_flow": 0.0,
+            "system_supply_post_override": 1552.2415266559797,
+            "system_demand_fixed": 2278.3236804994576,
+            "supply_gap": 726.082153843478,
+            "feasibility_status": "Supply Gap / Infeasible",
+            "financial_impact_estimate": 1495.72923691864,
+            "details": {
+                "unit_cost": 2.06,
+                "sales_price": 0.0
+            }
+        },
+        "shutdown_source_5": {
+            "override_type": "Force_Shutdown",
+            "target_node": "source_5",
+            "original_flow": 422.060087702,
+            "forced_flow": 0.0,
+            "system_supply_post_override": 1856.2635927979798,
+            "system_demand_fixed": 2278.3236804994576,
+            "supply_gap": 422.06008770147787,
+            "feasibility_status": "Supply Gap / Infeasible",
+            "financial_impact_estimate": 1042.48841662394,
+            "details": {
+                "unit_cost": 2.47,
+                "sales_price": 0.0
+            }
+        },
+        "shutdown_source_4": {
+            "override_type": "Force_Shutdown",
+            "target_node": "source_4",
+            "original_flow": 82.4465416417,
+            "forced_flow": 0.0,
+            "system_supply_post_override": 2195.8771388582795,
+            "system_demand_fixed": 2278.3236804994576,
+            "supply_gap": 82.4465416411781,
+            "feasibility_status": "Supply Gap / Infeasible",
+            "financial_impact_estimate": 313.29685823845995,
+            "details": {
+                "unit_cost": 3.8,
+                "sales_price": 0.0
+            }
+        },
+        "shutdown_source_7": {
+            "override_type": "Force_Shutdown",
+            "target_node": "source_7",
+            "original_flow": 51.054196567,
+            "forced_flow": 0.0,
+            "system_supply_post_override": 2227.2694839329797,
+            "system_demand_fixed": 2278.3236804994576,
+            "supply_gap": 51.05419656647791,
+            "feasibility_status": "Supply Gap / Infeasible",
+            "financial_impact_estimate": 110.78760655039,
+            "details": {
+                "unit_cost": 2.17,
+                "sales_price": 0.0
+            }
+        }
+    }
+}
